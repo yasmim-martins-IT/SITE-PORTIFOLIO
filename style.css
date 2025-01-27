@@ -1,0 +1,95 @@
+/* styles */
+
+/* css configure */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---- global ---*/
+.global-aligments{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--font --*/
+.anton-regular {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .belanosima-regular {
+    font-family: "Belanosima", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .belanosima-semibold {
+    font-family: "Belanosima", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .belanosima-bold {
+    font-family: "Belanosima", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.bitter- {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+  
+  
+
+/*---- header ----*/
+header{
+    height: 100px;
+    width: 100%;
+}
+.header-aligments{
+    padding-top: 30px;
+}
+.header-aligments h1{
+    font-family: Bitter;
+}
+
+/* -----body------ */
+body{
+    font-family:  Bitter;
+}
+
+/* ---- banners ---- */
+#banner-principal {
+    height: 650px;
+    width: 100%;
+}
+
+/*----introducion---- */
+
+ .introducion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        width: 100%;
+        
+        padding-top: 30px;
+ }
+ .text {
+    border: solid,1px;
+    border-radius: 20px;
+    height: 200px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 800PX;
+
+ }
