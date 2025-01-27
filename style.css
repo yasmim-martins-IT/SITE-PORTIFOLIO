@@ -80,12 +80,12 @@ body{
         justify-content: center;
         gap: 70px;
         width: 100%;
-        
+        border-top: solid;
         padding-top: 30px;
  }
  .text {
-    border: solid,1px;
-    border-radius: 20px;
+   border-top: solid;
+   border-bottom: solid;
     height: 200px;
     justify-items: center;
     align-items: center;
@@ -93,3 +93,11 @@ body{
     width: 800PX;
 
  }
+ /*----Personal tastes---- */
+ .personal-taste{
+  padding-top: 30px;
+ }
+ .title-taste {
+  padding-right: 30px;
+  border-right: solid black;
+}
