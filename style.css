@@ -96,26 +96,42 @@ body{
  /*----Personal tastes---- */
  .personal-taste{
   padding-top: 30px;
-  padding-left: 700px;
-
  }
  .title-taste {
  align-items: center;
  justify-items: center;
+}
+.description{
+  align-items: center;
+  justify-items: center;
+  padding-left: 155px;
+}
+.img-favores{
+    height: 200px;
+    width: 200px;
 }
   /* favore movie */
 .movie{
   padding-top: 20px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   }
-.movie img {
-  height: 300px;
-  width: 300px;
-}
 
   /*favore color */
-.favore_color {
-
+.favore-color{
+  padding-right: 20px;
+  padding-left: 20px;
+  gap:50px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
 }
+/* favore song */
+.favore-food{
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+}
+
