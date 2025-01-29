@@ -96,8 +96,26 @@ body{
  /*----Personal tastes---- */
  .personal-taste{
   padding-top: 30px;
+  padding-left: 700px;
+
  }
  .title-taste {
-  padding-right: 30px;
-  border-right: solid black;
+ align-items: center;
+ justify-items: center;
+}
+  /* favore movie */
+.movie{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  }
+.movie img {
+  height: 300px;
+  width: 300px;
+}
+
+  /*favore color */
+.favore_color {
+
 }
