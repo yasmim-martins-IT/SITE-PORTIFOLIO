@@ -10,7 +10,7 @@
 }
 
 /* ---- global ---*/
-.global-aligments{
+.global-aligments{ 
     display: flex ;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@ header{
 
 /* -----body------ */
 body{
-    font-family:  Bitter;
+    font-family:  Bitter; 
 }
 
 /* ---- banners ---- */
